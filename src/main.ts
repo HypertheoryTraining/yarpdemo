@@ -20,7 +20,7 @@ calculateButton.addEventListener('click', async () => {
     return;
   }
   
- await fetch('http://localhost:8080/statistics', {
+ await fetch('http://localhost:1338/statistics', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
